@@ -30,7 +30,7 @@
             >;
         };
 
-        symbols_layer {
+        special_layer {
             // ------------------------------------------------------------------------------------------------------------
             // | BTCLR | BT1 | BT2 |  BT3 |  BT4 |  BT5 |                   |      |       |       |      |       |       |
             // |  F1   |  F2 |  F3 |  F4  |  F5  |  F6  |                   |  F7  |  F8   |  F9   |  F10 |  F11  |  F12  |
@@ -41,13 +41,13 @@
             bindings = <
            &trans        &trans  &trans  &trans        &trans  &trans                                                 &trans     &trans     &trans     &trans            &trans             &trans
         &kp GRAVE        &kp N1  &kp N2  &kp N3        &kp N4  &kp N5                                                 &kp N6     &kp N7     &kp N8     &kp N9            &kp N0      &kp BACKSPACE
-   &kp LEFT_SHIFT        &trans  &trans  &trans        &trans  &trans                                               &kp LEFT   &kp DOWN     &kp UP  &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+     &kp CAPSLOCK        &trans  &trans  &trans        &trans  &trans                                               &kp LEFT   &kp DOWN     &kp UP  &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
  &kp LEFT_CONTROL  &kp LA(LGUI)  &trans  &trans        &trans  &trans           &trans             &trans             &trans  &kp GRAVE  &kp MINUS  &kp EQUAL     &kp BACKSLASH  &kp RIGHT_CONTROL
                                          &trans  &kp LEFT_ALT  &trans  &kp RIGHT_SHIFT  &kp RIGHT_COMMAND  &kp RIGHT_CONTROL
             >;
         };
 
-        raise_layer {
+        pc_layer {
             // ------------------------------------------------------------------------------------------------------------
             // |       |     |     |      |      |      |                   |      |       |       |      |       |       |
             // |   `   |  1  |  2  |  3   |  4   |  5   |                   |  6   |   7   |   8   |  9   |   0   |       |
