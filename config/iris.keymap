@@ -56,11 +56,11 @@
             //                            |      |      |        |  |       |      |       |
 
             bindings = <
-     &trans        &trans           &trans  &trans  &trans  &trans                            &trans            &trans          &trans             &trans    &trans             &trans
-    &kp F12        &kp F1           &kp F2  &kp F3  &kp F4  &kp F5                            &kp F6            &kp F7          &kp F8             &kp F9   &kp F10            &kp F11
- &kp C_MUTE    &kp C_NEXT       &kp C_PREV  &trans  &trans  &trans                  &kp LC(LA(LEFT))  &kp LC(LA(DOWN))  &kp LC(LA(UP))  &kp LC(LA(RIGHT))    &trans  &kp LC(LA(ENTER))
-   &kp C_PP  &kp C_VOL_DN  &kp C_VOLUME_UP  &trans  &trans  &trans  &trans  &trans     &kp LC(LA(J))     &kp LC(LA(K))   &kp LC(LA(I))      &kp LC(LA(U))  &kp RBKT           &kp BSLH
-                                            &trans  &trans  &trans  &trans  &trans            &trans
+     &trans        &trans           &trans  &trans         &trans         &trans                            &trans            &trans          &trans             &trans   &trans             &trans
+    &kp F12        &kp F1           &kp F2  &kp F3         &kp F4         &kp F5                            &kp F6            &kp F7          &kp F8             &kp F9  &kp F10            &kp F11
+ &kp C_MUTE    &kp C_NEXT       &kp C_PREV  &trans  &kp LC(LA(U))  &kp LC(LA(I))                  &kp LC(LA(LEFT))  &kp LC(LA(DOWN))  &kp LC(LA(UP))  &kp LC(LA(RIGHT))   &trans  &kp LC(LA(ENTER))
+   &kp C_PP  &kp C_VOL_DN  &kp C_VOLUME_UP  &trans  &kp LC(LA(N))  &kp LC(LA(K))  &trans  &trans            &trans            &trans          &trans             &trans   &trans             &trans
+                                            &trans         &trans         &trans  &trans  &trans            &trans
             >;
         };
 
