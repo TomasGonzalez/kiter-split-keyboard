@@ -42,7 +42,7 @@
            &trans  &trans  &trans  &trans        &trans  &trans                                                 &trans     &trans     &trans     &trans            &trans             &trans
         &kp GRAVE  &kp N1  &kp N2  &kp N3        &kp N4  &kp N5                                                 &kp N6     &kp N7     &kp N8     &kp N9            &kp N0      &kp BACKSPACE
    &kp LEFT_SHIFT  &trans  &trans  &trans        &trans  &trans                                               &kp LEFT   &kp DOWN     &kp UP  &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
- &kp LEFT_CONTROL     &mo  &trans  &trans        &trans  &trans           &trans             &trans             &trans  &kp GRAVE  &kp MINUS  &kp EQUAL     &kp BACKSLASH  &kp RIGHT_CONTROL
+ &kp LEFT_CONTROL  &kp LA(LGUI)  &trans  &trans        &trans  &trans           &trans             &trans             &trans  &kp GRAVE  &kp MINUS  &kp EQUAL     &kp BACKSLASH  &kp RIGHT_CONTROL
                                    &trans  &kp LEFT_ALT  &trans  &kp RIGHT_SHIFT  &kp RIGHT_COMMAND  &kp RIGHT_CONTROL
             >;
         };
