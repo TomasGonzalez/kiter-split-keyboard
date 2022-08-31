@@ -22,11 +22,11 @@
             //                     		  | GUI  | LOWER|  SPACE |  | ENTER | RAISE|  ALT  |
 
             bindings = <
-       &trans  &trans  &trans  &trans            &trans     &trans                                      &trans  &trans     &trans   &trans    &trans         &trans
-      &kp TAB   &kp Q   &kp W   &kp E             &kp R      &kp T                                       &kp Y   &kp U      &kp I    &kp O     &kp P  &kp BACKSPACE
-      &kp ESC   &kp A   &kp S   &kp D             &kp F      &kp G                                       &kp H   &kp J      &kp K    &kp L  &kp SEMI        &kp SQT
- &kp LEFT_ALT   &kp Z   &kp X   &kp C             &kp V      &kp B            &mo 3              &mo 2   &kp N   &kp M  &kp COMMA  &kp DOT  &kp FSLH      &kp ENTER
-                                &mo 1  &kp LEFT_CONTROL  &kp SPACE  &kp RIGHT_SHIFT  &kp RIGHT_COMMAND   &mo 2
+       &trans  &trans  &trans  &trans            &trans          &trans                                &trans  &trans     &trans   &trans    &trans         &trans
+      &kp TAB   &kp Q   &kp W   &kp E             &kp R           &kp T                                 &kp Y   &kp U      &kp I    &kp O     &kp P  &kp BACKSPACE
+      &kp ESC   &kp A   &kp S   &kp D             &kp F           &kp G                                 &kp H   &kp J      &kp K    &kp L  &kp SEMI        &kp SQT
+ &kp LEFT_ALT   &kp Z   &kp X   &kp C             &kp V           &kp B      &mo 3              &mo 2   &kp N   &kp M  &kp COMMA  &kp DOT  &kp FSLH      &kp ENTER
+                                &mo 1  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp SPACE  &kp RIGHT_COMMAND   &mo 2
             >;
         };
 
@@ -59,7 +59,7 @@
      &trans        &trans           &trans  &trans         &trans         &trans                            &trans            &trans          &trans             &trans   &trans             &trans
     &kp F12        &kp F1           &kp F2  &kp F3         &kp F4         &kp F5                            &kp F6            &kp F7          &kp F8             &kp F9  &kp F10            &kp F11
  &kp C_MUTE    &kp C_NEXT       &kp C_PREV  &trans  &kp LC(LA(U))  &kp LC(LA(I))                  &kp LC(LA(LEFT))  &kp LC(LA(DOWN))  &kp LC(LA(UP))  &kp LC(LA(RIGHT))   &trans  &kp LC(LA(ENTER))
-   &kp C_PP  &kp C_VOL_DN  &kp C_VOLUME_UP  &trans  &kp LC(LA(N))  &kp LC(LA(K))  &trans  &trans            &trans            &trans          &trans             &trans   &trans             &trans
+   &kp C_PP  &kp C_VOL_DN  &kp C_VOLUME_UP  &trans  &kp LC(LA(J))  &kp LC(LA(K))  &trans  &trans            &trans            &trans          &trans             &trans   &trans             &trans
                                             &trans         &trans         &trans  &trans  &trans            &trans
             >;
         };
