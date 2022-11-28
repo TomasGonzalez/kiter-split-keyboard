@@ -41,7 +41,7 @@
             bindings = <
        &trans      &trans      &trans      &trans  &trans          &trans                                        &trans    &trans     &trans     &trans            &trans                 &trans
     &kp GRAVE      &kp N1      &kp N2      &kp N3  &kp N4          &kp N5                                        &kp N6    &kp N7     &kp N8     &kp N9            &kp N0          &kp BACKSPACE
-       &trans      &trans      &trans      &trans  &trans          &trans                                      &kp LEFT  &kp DOWN     &kp UP  &kp RIGHT  &kp LEFT_BRACKET      &kp RIGHT_BRACKET
+     &kp CAPS      &trans      &trans      &trans  &trans          &trans                                      &kp LEFT  &kp DOWN     &kp UP  &kp RIGHT  &kp LEFT_BRACKET      &kp RIGHT_BRACKET
  &kp LEFT_ALT  &kp C_MUTE  &kp C_PREV  &kp C_NEXT  &trans          &trans  &trans             &trans             &trans    &trans  &kp MINUS  &kp EQUAL     &kp BACKSLASH  &mt RIGHT_SHIFT ENTER
                                            &trans  &trans  &kp LEFT_SHIFT   &mo 4  &kp RIGHT_CONTROL  &kp RIGHT_COMMAND
             >;
@@ -58,7 +58,7 @@
             bindings = <
        &trans           &trans             &trans            &trans            &trans           &trans                             &trans         &trans          &trans                &trans                 &trans                 &trans
     &kp TILDE  &kp EXCLAMATION             &kp AT          &kp HASH        &kp DOLLAR      &kp PERCENT                          &kp CARET  &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                 &trans
- &kp CAPSLOCK           &trans      &kp RA(RG(X))     &kp RA(RG(C))            &trans    &kp RA(RG(G))                           &kp LEFT       &kp DOWN          &kp UP             &kp RIGHT         &kp LEFT_BRACE        &kp RIGHT_BRACE
+       &trans           &trans      &kp RA(RG(X))     &kp RA(RG(C))            &trans    &kp RA(RG(G))                           &kp LEFT       &kp DOWN          &kp UP             &kp RIGHT         &kp LEFT_BRACE        &kp RIGHT_BRACE
  &kp LEFT_ALT         &kp C_PP  &kp C_VOLUME_DOWN      &kp C_VOL_UP            &trans           &trans  &trans  &trans             &trans         &trans  &kp UNDERSCORE              &kp PLUS               &kp PIPE  &mt RIGHT_SHIFT ENTER
                                                    &kp LEFT_CONTROL  &kp LEFT_COMMAND  &kp RIGHT_SHIFT  &trans  &trans  &kp RIGHT_COMMAND
             >;
